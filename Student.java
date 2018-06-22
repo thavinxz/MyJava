@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 public class Student {
     private int id, age;
     private String name, phone;
     public static String country="Cambodia", school="KIT";
-    
     public void input() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Input id: ");
@@ -32,5 +30,4 @@ public class Student {
         stu.input();
         stu.output();
     }
-    
 }
